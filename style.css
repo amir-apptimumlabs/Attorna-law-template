@@ -1038,7 +1038,66 @@ header {
 /* --------------------------------------------------------- FOOTER -------------------------------------------------------------  */
 
 .footer {
-  height: 40vh;
-  padding: var(--gutter-huge) 0;
+  color: var(--color-white);
+  padding-top: var(--gutter-huge);
+  padding-bottom: var(--gutter-small);
   background-color: var(--color-black);
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: var(--gutter-huge);
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__textbox {
+  display: flex;
+  gap: var(--gutter-small);
+  justify-content: space-between;
+}
+
+.footer__box img {
+  padding: 3rem 0;
+}
+
+.footer__box h2 {
+  padding: 3rem 0;
+  font-size: var(--font-large);
+}
+
+.footer__box p {
+  gap: 2rem;
+  display: flex;
+  max-width: 30rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: var(--font-small);
+}
+
+.footer__box small {
+  margin-bottom: 1.5rem;
+  font-size: var(--font-small);
+}
+
+.footer__box div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.footer__box-social {
+  gap: 2rem;
+  display: flex;
+  padding: 1rem 0;
+  justify-content: inherit !important;
+  border-bottom: none !important;
+}
+
+.social-icon {
+  font-size: 2rem;
 }
