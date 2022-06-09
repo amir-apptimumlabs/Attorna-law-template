@@ -1077,6 +1077,12 @@ header {
   align-items: center;
   margin-bottom: 1.5rem;
   font-size: var(--font-small);
+  transition: var(--transition-basic);
+}
+
+.p-law:hover {
+  cursor: pointer;
+  color: var(--color-brand);
 }
 
 .footer__box small {
@@ -1100,4 +1106,19 @@ header {
 
 .social-icon {
   font-size: 2rem;
+}
+
+.footer__copyright p,
+.footer__copyright a {
+  font-size: var(--font-small);
+  transition: var(--transition-basic);
+}
+
+.footer__copyright div {
+  display: flex;
+  gap: var(--gutter-tiny);
+}
+
+.footer__copyright a:hover {
+  color: var(--color-brand);
 }
