@@ -1463,3 +1463,15 @@ header {
     width: 640px !important;
   }
 } */
+
+/* @media screen and (max-width: 768px) {
+  .swiper-wrapper {
+    width: 1120px !important;
+  }
+} */
+
+@media only screen and (max-width: 768px) {
+  .mySwiperss {
+    max-width: 350px;
+  }
+}
